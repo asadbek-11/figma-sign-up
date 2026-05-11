@@ -258,7 +258,7 @@ body {
   }
 
   .header__center-right {
-    width: 25px;
+    width: 250px;
   }
 
   .header-btn {
@@ -280,7 +280,7 @@ body {
 
 .clients-section {
   text-align: center;
-  margin-top: 90px; 
+  margin-top: 90px;
 }
 
 .clients-section h2 {
@@ -917,12 +917,16 @@ body {
     width: 100%;
     max-width: 300px;
   }
+
+  .footer-left {
+    margin-right: 180px;
+  }
 }
 
 
 
 .modal {
-  display: none; 
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -935,13 +939,13 @@ body {
 .modal-content {
   background: white;
   width: 500px;
-  height: 500px;
+  height: 620px;
   margin: 80px auto;
   padding: 40px;
   border-radius: 25px;
   display: flex;
+  gap: 40px;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -970,3 +974,18 @@ body {
   border: none;
 }
 
+.create-btn {
+  padding: 15px 137px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF4F;
+  color: white;
+}
+
+.login-btn {
+  padding: 15px 160px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF4F;
+  color: white;
+}

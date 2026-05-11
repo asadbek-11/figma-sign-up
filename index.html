@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nexcent</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">.
 </head>
 
 <body>
@@ -34,7 +34,7 @@
               <a href="#">Testimonial</a>
 
               <div class="auth-buttons">
-                <button class="btn">Login</button>
+                <button class="btn" id="lgnBtn">Login</button>
                 <button class="btns">Sign up</button>
               </div>
             </nav>
@@ -98,15 +98,28 @@
 
         </div>
       </div>
+
       <div id="modal" class="modal">
         <div class="modal-content">
-          <button id="closeModal" class="close-x">&times;</button>
+          <button id="closeModal" class="close-x">x</button>
           <h2>Sign up</h2>
-          <p>Ro'yxatdan o'tish oynasi</p>
+          <p>Royhattan otish oynasi</p>
           <input type="email" placeholder="Ismingiz">
           <input type="email" placeholder="Email">
           <input type="email" placeholder="Parol">
-          <button class="btns">Create account</button>
+          <button class="create-btn">Create account</button>
+          <p>Akkauntingiz bormi? <a href="#" id="lgnLink">Login</a></p>
+        </div>
+      </div>
+
+      <div id="login-modal" class="modal">
+        <div class="modal-content">
+          <button id="login-closeModal" class="close-x">x</button>
+          <h2>Login</h2>
+          <p>Royxatdan o'tmaganmisiz? <a href="#" id="loginBtn">Sign up</a></p>
+          <input type="email" placeholder="Ismingiz">
+          <input type="email" placeholder="Parol">
+          <button class="login-btn">Login</button>
         </div>
       </div>
 
@@ -159,17 +172,6 @@
         </div>
       </div>
 
-      <!-- <div class="login-modal">
-        <div class="login-modal-box">
-          <button class="login-modal-close" id="login-modalClose">x</button>
-
-          <h2>Log in</h2>
-          <div>
-            <p>Need a Mailchimp account?</p>
-            <a href="#">Create an account</a>
-          </div>
-        </div>
-      </div> -->
       <div class="section-two">
         <div class="container">
 
@@ -206,7 +208,6 @@
 
           <div class="stats-right">
 
-
             <div class="stat-item">
               <img src="./images/yangi1.svg" alt="">
               <div>
@@ -216,7 +217,7 @@
             </div>
 
             <div class="stat-item">
-              <img src="./images/yangi3.svg" alt="">
+              <img src="./images/yangi2.svg" alt="">
               <div>
                 <h3>46,328</h3>
                 <p>Clubs</p>
@@ -232,7 +233,7 @@
             </div>
 
             <div class="stat-item">
-              <img src="./images/yangi3.svg" alt="">
+              <img src="./images/yangi1.svg" alt="">
               <div>
                 <h3>1,926,436</h3>
                 <p>Payments</p>
